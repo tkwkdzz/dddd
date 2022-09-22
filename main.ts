@@ -9,9 +9,9 @@ input.onButtonPressed(Button.A, function () {
     }
     music.playMelody("E D C D E E E D ", 140)
     music.stopAllSounds()
-    music.playMelody("D D E G G E D C ", 120)
+    music.playMelody("D D E G G E D C ", 140)
     music.stopAllSounds()
-    music.playMelody("D E E E D D E D ", 120)
+    music.playMelody("D E E E D D E D ", 140)
     music.stopAllSounds()
     music.playTone(262, music.beat(BeatFraction.Whole))
 })
